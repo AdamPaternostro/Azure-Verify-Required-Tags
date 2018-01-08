@@ -8,8 +8,10 @@ This script will verify that you have your set of required tags on your Azure re
 
 You can read more about tags here: https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags
 
-## Policies
+## Default Tags 
 One thing that Azure does not does not currently allow is to place tags on resources when creating in the Azure portal.  You can place tags when using ARM templates or CLI.  So, in that case you can create a policy which can place the default (required) tags on the resources (at the time of writing it does not appear policies are putting default tags on a Resource Group) when creating in the portal.  A user will then need to go set these values.  The above script test for a "default" value that has not been changed.
+
+Another option instead of polices is to create a predefined list of tags the user can select.  In the portal, the user will get a "drop down" of default tags that they can then set the values for: https://docs.microsoft.com/en-us/powershell/module/azurerm.tags/new-azurermtag?view=azurermps-5.1.1
 
 ## Warning - Please test before running
 These scripts look through ALL the subscriptions you have access.  You should consider only doing a single subscription and you need to test on a small subset to make sure things work they way you want.
