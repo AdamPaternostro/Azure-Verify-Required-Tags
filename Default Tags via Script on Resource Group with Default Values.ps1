@@ -1,4 +1,4 @@
-# Create default tags on each resouce group
+ # Create default tags on each resouce group if they do not exist
 
 $requiredTags = @("CostCenter","Category") # Case-Senstive!!!!
 $defaultValue = "DEFAULT"
