@@ -1,4 +1,4 @@
-# Generate a CSV for Azure Resources that are missing a required tag or the tag is set to a default value
+# Generate a CSV for Azure Resource Groups that are missing a required tag or the tag is set to a default value
 
 # Fill this out
 $requiredTags = @("CostCenter","Category") # Case-Senstive!!!!
