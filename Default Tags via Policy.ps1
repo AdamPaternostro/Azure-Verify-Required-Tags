@@ -1,4 +1,5 @@
-# Create Policy
+# Creates a policy that will place default tags on an Azure Resource when the resource is created
+# NOTE: This is not tagging the resource group itself
 
 $subscriptionId = "<<REMOVED>>"
 Login-AzureRmAccount
