@@ -1,6 +1,5 @@
-
 # Azure-Verify-Required-Tags
-Checks to see if resources and/or resource groups have required tags.
+Checks to see if resources and/or resource groups have required tags.  Also, these can be used to set a default set of tags required for a resource.
 
 ## Most Oragnaizations want their Azure resources Tag - This script will audit required tags
 In Azure you can tag resource groups and individual resources.  Tags are used for determining how to break down costs (charge back to certain groups), which environments are prod or non-prod or pretty much anything you want.  Tags are simply key-value pairs that can be used for any purpose.
