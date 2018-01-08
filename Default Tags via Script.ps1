@@ -1,3 +1,4 @@
+# Creates the default tags (with choices) that can be selected in the Azure Portal
 $subscriptionId = "<<REMOVED>>"
 
 # Connect to Azure
