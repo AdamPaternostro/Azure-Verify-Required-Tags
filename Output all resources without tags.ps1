@@ -1,4 +1,4 @@
-﻿# Generate a CSV for Azure Resources that are missing a required tag or the tag is set to a default value
+# Generate a CSV for Azure Resources that are missing a required tag or the tag is set to a default value
 
 # Fill this out
 $requiredTags = @("CostCenter","Category") # Case-Senstive!!!!
@@ -9,7 +9,7 @@ $defaultValue = "DEFAULT"
 # $secpasswd = ConvertTo-SecureString "{{REPLACE_CLIENT_KEY}}" -AsPlainText -Force
 # $mycreds = New-Object System.Management.Automation.PSCredential ("{{REPLACE_CLIENT_ID}}", $secpasswd)
 # Login-AzureRmAccount -ServicePrincipal -Tenant {{REPLACE_ENDPOINT}} -Credential $mycreds
-# Login-AzureRmAccount
+Login-AzureRmAccount
 
 $subscriptionList = Get-AzureRmSubscription
 
