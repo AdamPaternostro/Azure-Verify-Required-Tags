@@ -1,3 +1,4 @@
+
 # Azure-Verify-Required-Tags
 Checks to see if resources and/or resource groups have required tags.
 
@@ -10,3 +11,6 @@ You can read more about tags here: https://docs.microsoft.com/en-us/azure/azure-
 
 ## Policies
 One thing that Azure does not does not currently allow is to place tags on resources when creating in the Azure portal.  You can place tags when using ARM templates or CLI.  So, in that case you can create a policy which can place the default (required) tags on the resources when creating in the portal.  A user will then need to go set these values.  The above script test for a "default" value that has not been changed.
+
+## Warning - Please test before running
+These scripts look through ALL the subscriptions you have access.  You should consider only doing a single subscription and you need to test on a small subset to make sure things work they way you want.
