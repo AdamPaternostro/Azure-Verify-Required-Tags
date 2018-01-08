@@ -1,4 +1,4 @@
-﻿# Create default tags on each resouce group
+# Create default tags on each resouce group
 
 $requiredTags = @("CostCenter","Category") # Case-Senstive!!!!
 $defaultValue = "DEFAULT"
@@ -7,7 +7,7 @@ $defaultValue = "DEFAULT"
 # $secpasswd = ConvertTo-SecureString "{{REPLACE_CLIENT_KEY}}" -AsPlainText -Force
 # $mycreds = New-Object System.Management.Automation.PSCredential ("{{REPLACE_CLIENT_ID}}", $secpasswd)
 # Login-AzureRmAccount -ServicePrincipal -Tenant {{REPLACE_ENDPOINT}} -Credential $mycreds
-# Login-AzureRmAccount
+Login-AzureRmAccount
 
 $subscriptionList = Get-AzureRmSubscription
 
