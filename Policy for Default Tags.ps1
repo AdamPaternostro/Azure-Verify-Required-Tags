@@ -1,4 +1,4 @@
-﻿# Create Policy
+# Create Policy
 
 $subscriptionId = "<<REMOVED>>"
 Login-AzureRmAccount
