@@ -1,4 +1,4 @@
-﻿$subscriptionId = "<<REMOVED>>"
+$subscriptionId = "<<REMOVED>>"
 
 # Connect to Azure
 Login-AzureRmAccount
